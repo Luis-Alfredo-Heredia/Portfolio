@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Backend and Frontend developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Backend and Frontend developer, here you will find information about the projects I have done. "
+    />
+    <meta
+      property="og:title"
+      content="Luis Heredia  Backend and Frontend Developer"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Luis Heredia  Backend and Frontend Developer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Luis Heredia Backend and Frontend Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#" class="a" id="a">LH</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="navbar__link">
+            <button class="switch" id="switch">
+              <span><i class="fas fa-sun"></i></span>
+              <span><i class="fas fa-moon"></i></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <source type="image/jpeg" srcset="./assets/profile.jpeg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm Luis Heredia Torrez</h1>
+        <div class="home-container">
+          <p>I'm a <span id="typed" class="home__title--secondary"></span></p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>Who am I?</h2>
+            <h2>I'm Luis Heredia Torrez, Web Developer / Data Analytics .</h2>
+            <p>
+              I am a Front End developer with experience building websites and
+              web applications. I specialize in JavaScript, and have
+              professional experience working with React.
+            </p>
+
+            <p>
+              I am always seeking to improve my skills to continually grow
+              professionally to be able to contribute consistently to the
+              workgroup with which I am.
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/LUIS_HEREDIA_TORREZ.pdf"
+              download="Luis Heredia CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills:</h2>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-html5"></i>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-css3-alt"></i>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JAVASCRIPT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-angular"></i>
+              <div class="skill__name">Angular 11</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">
+          Here you can see the projects I have worked on.
+        </h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Platzi-video.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Platzi Video</h3>
+              <p class="portfolio__description--text">
+                Web Application: REACT, JS, SCSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://platzi-video-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Platzi-video"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <picture>
+              <source
+                type="image/jpeg"
+                srcset="./projects/Escuela-de-la-verdad-page-min.webp"
+              />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">
+                Escuela de la verdad page
+              </h3>
+              <p class="portfolio__description--text">
+                Landing Page: HTML, CSS, JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Escuela-de-la-verdad/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Escuela-de-la-verdad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--   <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Simon.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Simon says</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS, CSS, HTML
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Simon-says-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Simon-says-game"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Blog.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Blog</h3>
+              <p class="portfolio__description--text">
+                Landing Page: REACT, CSS, HTML
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://simple-htmlblog-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source
+                type="image/jpeg"
+                srcset="./projects/Batatabit-first-mobile.jfif"
+              />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Batatabit</h3>
+              <p class="portfolio__description--text">Website: HTML, CSS</p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Batatabit-first-mobile/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Batatabit-first-mobile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/CSS-Layout.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">CSS-Layout</h3>
+              <p class="portfolio__description--text">
+                Landing Page: HTML, CSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/CSS-Layout/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/CSS-Layout"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <h3 class="section__subtitle">
+          Contact me if you want us to work together.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:luis.alfredo.heredia@hotmail.es"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="far fa-envelope"></i>
+              <p>Mail Me</p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/Luis-Alfredo-Heredia"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-social text-decoration-none"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/LuiisHeredia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-twitter"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/luis-alfredo-heredia-torrez/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contact Me</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">@LuisHeredia</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+
+    <!-- Local JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+      let typed = new Typed("#typed", {
+        strings: ["Backend Developer", "Web Developer", "Student"],
+        backSpeed: 50,
+        typeSpeed: 30,
+        loop: true,
+        backDelay: 1500,
+      });
+    </script>
+   <div id="last">
+   </div> 
+  </body>
+</html>
