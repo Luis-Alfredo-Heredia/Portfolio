@@ -2,7 +2,7 @@ const navbar = document.querySelector(".navbar");
 const title = document.querySelector("a");
 const titleDark = document.querySelector("body.dark a");
 const homebg = document.querySelector(".home__background");
-const menu = document.querySelector(".navbar__menu");
+const menu = document.querySelector(".navbar__menu"); 
 const links = document.querySelector(".navbar__links");
 const sections = document.querySelectorAll("section");
 const config = {
@@ -23,8 +23,8 @@ window.addEventListener("scroll", function () {
   window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
   window.scrollY < 100 && (navbar.style.background = `transparent`);
   window.scrollY > 100 && (title.style.color = `white`);
-  window.scrollY > 100 && (title.style.textDecoration = `none`);
   window.scrollY < 100 && (title.style.color = `#3367d6`);
+  window.scrollY > 100 && (title.style.textDecoration = `none`);
   window.scrollY < 100 && (title.style.textDecoration = `none`);
 });
 
